@@ -31,8 +31,11 @@ public class FileStudent {
         Scanner sf = new Scanner (new FileReader ("info.txt"));
         int count = 0; String id, dept, name, grade; double mid, fin, summid = .0 , sumfin = .0;
         
-        System.out.println(" id name                   mid   final  grade");
         while(sf.hasNext()) {
+            if (count % 5 == 0) {
+                System.out.println(" ");
+                System.out.println(" id name                   mid   final  grade");
+            }
             count++;
             id = sf.next();
             dept = sf.next();
