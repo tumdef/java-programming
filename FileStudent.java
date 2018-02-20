@@ -29,7 +29,7 @@ public class FileStudent {
     
     public static void main(String[] args) throws IOException {
         Scanner sf = new Scanner (new FileReader ("info.txt"));
-        int count = 0; String id, dept, name, grade; Double mid, fin, summid = .0 , sumfin = .0;
+        int count = 0; String id, dept, name, grade; double mid, fin, summid = .0 , sumfin = .0;
         
         System.out.println(" id name                   mid   final  grade");
         while(sf.hasNext()) {
