@@ -7,3 +7,7 @@
 60000006 stat Chandra Sintawichai  45.55 33.33
 60000007 stat Tadthep Sarit        64.69 46.94
 60000008 com  Sujin Kunchai        99.98 99.0
+60000009 chem Logan Paul           0.0   1.5
+60000010 math Jake Paul            34.2  44.7
+60000011 math Big Shaq             2.4   1.3
+60000012 bio  Erawan Panyarachun   45.0  68.88
